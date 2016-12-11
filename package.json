@@ -1,0 +1,31 @@
+{
+  "name": "ember-cli-light-template-lint",
+  "version": "0.1.2",
+  "description": "Light ember templates linter to test whole directory by standalone command. Made for CI or standalone usage.",
+  "keywords": [
+    "ember-addon"
+  ],
+  "license": "MIT",
+  "author": "",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": "",
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:each"
+  },
+  "dependencies": {
+    "cli": "^1.0.1",
+    "ember-template-lint": "^0.6.3",
+    "walker": "^1.0.7"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "ember-addon": {
+    "configPath": ""
+  }
+}
