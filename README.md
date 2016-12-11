@@ -1,7 +1,7 @@
 # ember-cli-light-template-lint
 
 ## Super lightweight plugin to lint your ember templates!
-* It's only about 20Kb of code.
+* It's only about 6.5Kb of code.
 * Dependent only on 2 light packages and great ember-template-lint.
 * Can run standalone without any other ember package installed.
 * Great for Continous Integration purpose.
@@ -18,7 +18,7 @@
 
 ## Running standalone
 
-* `npm node_modules/ember-cli-light-template-lint/bin/lint.js`
+* `node node_modules/ember-cli-light-template-lint/bin/lint.js`
 
 ## Options
 

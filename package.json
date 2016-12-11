@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-light-template-lint",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Light ember templates linter to test whole directory by standalone command. Made for CI or standalone usage.",
   "keywords": [
     "ember-addon"
