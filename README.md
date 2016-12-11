@@ -2,23 +2,28 @@
 
 ## Super lightweight plugin to lint your ember templates!
 * It's only about 6.5Kb of code.
-* Dependent only on 2 light packages and great ember-template-lint.
-* Can run standalone without any other ember package installed.
-* Great for Continous Integration purpose.
-* Supports rules from `.template-lintrc.js`
-* Output similar to `ember-cli-template-lint`
+* Dependent only on 2 light packages and `ember-template-lint`.
+* This plugin can run standalone without any other ember package installed.
+* Great for Continous Integration purposes.
+* Supports rules defined in `.template-lintrc.js`
+* Output is similar to `ember-cli-template-lint`
 
 ## Installation
+*(note: Both commands are doing the same thing. But in CI you may have not installed ember-cli, so standalone install is preffered for CI)*
 
-* `ember install ember-cli-light-template-lint`
+### With ember
+`ember install ember-cli-light-template-lint`
 
-## Running with ember
+### Standalone
+`npm install ember-cli-light-template-lint --save-dev`
 
-* `ember light-template-lint`
+## Running
 
-## Running standalone
+### With ember
+`ember light-template-lint`
 
-* `node node_modules/ember-cli-light-template-lint/bin/lint.js`
+### Standalone
+`node node_modules/ember-cli-light-template-lint/bin/lint.js`
 
 ## Options
 
